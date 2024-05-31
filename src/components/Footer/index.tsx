@@ -38,7 +38,7 @@ export const FooterComponent: React.FC = () => {
                         <div>
                             <Footer.Title title="Legal" />
                             <Footer.LinkGroup col>
-                                <Footer.Link href="#">Certificate</Footer.Link>
+                                <Footer.Link href="https://datawallah.s3.amazonaws.com/UDDYAM1.pdf" target="_blank">Certificate</Footer.Link>
                                 <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
                             </Footer.LinkGroup>
                         </div>
