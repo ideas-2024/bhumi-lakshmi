@@ -6,19 +6,19 @@ export const CompanyMVG = [
         id: '1',
         title: "Our Mission",
         description:"Our mission is to revolutionize agriculture by harnessing the power of nature to create innovative Bio-stimulants and organic solutions as well as all types of non-hazardous agricultural inputs that promote sustainable farming practices, enhance crop yields and protect the environment.",
-        logo: "./src/assets/Mission.jpg"
+        logo: "/src/assets/Mission.jpg"
     },
     {
         id: '2',
         title: "Our Vision",
         description:"Our vision is to lead the global agricultural industry towards a more sustainable future, where every farmer has access to effective, eco-friendly solutions that optimize crop health and productivity. Through relentless innovation and a commitment to excellence, we strive to empower farmers to feed the world while preserving the planet for future generations.",
-        logo: "./src/assets/Vision.jpg"
+        logo: "/src/assets/Vision.jpg"
     },
     {
         id: '3',
         title: "Client Satisfaction",
         description:"Client satisfaction is at the heart of everything we do. We are dedicated to exceeding our clients' expectations by delivering high-quality products, exceptional services, reasonable prices and tailored solutions that address their unique agricultural needs. We listen attentively to our clients, collaborate closely with them, and continuously seek feedback to ensure that we not only meet but exceed their expectations. Our ultimate goal is to build long-lasting partnerships based on trust, transparency and mutual success.",
-        logo: "./src/assets/Values.jpg"
+        logo: "/src/assets/Values.jpg"
     }
 ]
 
