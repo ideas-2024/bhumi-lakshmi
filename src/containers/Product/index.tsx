@@ -1,8 +1,8 @@
 import React from "react";
-import { ProductCard } from "../../components/Card";
 import { Products, ProductsFertilizer, ProductsPesticides } from "../../shared/constant";
 import { ProductCardInterface, ProductCardV2Interface } from "../../shared/interface";
 import { ProductCardV2 } from "../../components/Card/productcardv2";
+import { ProductCard } from "../../components/Card/productcard";
 
 const ProductContainer: React.FC = () => {
     return (

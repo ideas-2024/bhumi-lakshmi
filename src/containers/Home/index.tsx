@@ -2,7 +2,7 @@ import React from "react";
 
 import { CompanyMVG } from "../../shared/constant";
 import { VisionCardInterface } from "../../shared/interface";
-import { VisionCard } from "../../components/Card";
+import { VisionCard } from "../../components/Card/visioncard";
 
 const HomeContainer: React.FC = () => {
     return (
