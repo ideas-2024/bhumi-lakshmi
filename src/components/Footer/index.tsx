@@ -11,7 +11,7 @@ export const FooterComponent: React.FC = () => {
                     <img
                             width={100}
                             height={200}
-                            src="/src/assets/logo-1.png"
+                            src="/assets/logo-1.png"
                             alt="logo"
                         /> 
                         <p>Bhumi Lakshmi Mishra Krishi Udyog</p>

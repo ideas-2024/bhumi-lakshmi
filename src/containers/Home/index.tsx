@@ -15,7 +15,7 @@ const HomeContainer: React.FC = () => {
                     <p className="text-xl sm:pt-4">where innovation meets sustainability in the realm of agricultural solutions. From farming to fork, we nourish.</p>
                 </div>
                 <div className="">
-                    <img src="/src/assets/First Image.jpg" className="width:20px rounded-lg" />
+                    <img src="/assets/First Image.jpg" className="width:20px rounded-lg" />
                 </div>
             </div>
 
