@@ -3,6 +3,8 @@ import React from "react";
 import { CompanyMVG } from "../../shared/constant";
 import { VisionCardInterface } from "../../shared/interface";
 import { VisionCard } from "../../components/Card/visioncard";
+import FI from "./../../assets/First Image.jpg";
+
 
 const HomeContainer: React.FC = () => {
     return (
@@ -15,7 +17,7 @@ const HomeContainer: React.FC = () => {
                     <p className="text-xl sm:pt-4">where innovation meets sustainability in the realm of agricultural solutions. From farming to fork, we nourish.</p>
                 </div>
                 <div className="">
-                    <img src="./../../assets//First Image.jpg" className="width:20px rounded-lg" />
+                    <img src={FI} className="width:20px rounded-lg" />
                 </div>
             </div>
 
