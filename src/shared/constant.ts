@@ -3,6 +3,12 @@ import mission from "../assets/Mission.jpg";
 import vision from "../assets/Vision.jpg";
 import values from "../assets/Values.jpg";
 import jpg6 from "../assets/6.jpg";
+import jpg2 from "../assets/2.jpg";
+import jpg3 from "../assets/3.jpg";
+import jpg4 from "../assets/4.jpg";
+import jpg5 from "../assets/5.jpg";
+import jpg7 from "../assets/7.jpg";
+
 
 export const CompanyMVG = [
     {
@@ -45,7 +51,7 @@ export const Products = [
         id: '2',
         title: "Silver Plus - BF4-L - Humic & Fulvic Acids Biostimulant",
         description:"Introducing Silver Plus  Biostimulant, a premium solution meticulously crafted to unlock the full potential of your crops. Enriched with the power of humic and fulvic acids, this Biostimulant goes beyond conventional fertilizers, delivering a coprehensive blend of nutrients and organic compounds essential for optimal plant growth. By promoting nutrient uptake, improving soil structure, and stimulating microbial activity, BF4-L Humic & Fulvic Acids Silver Plus Biostimulant revitalizes agricultural ecosystems, resulting in healthier plants and higher yields. With its advanced formulation and proven effectiveness, this product sets a new standard for sustainable farming practices, empowering farmers to cultivate thriving crops while preserving the health of the land.",
-        logo: "/src/assets/5.jpg",
+        logo: jpg5,
         benefits:[
            "Stimulate plant growth (higher biomass production) by accelerating cell division, increasing the rate of development in root systems and increasing the yield of dry matter.",
            "Reduces photo-respiration losses. +Increase chlorophyll production and enhances photosynthesis process and helps in healthier plant growth and proliferation.",
@@ -60,7 +66,7 @@ export const Products = [
         id: '3',
         title: "Bhumi-Zyme - BF4-GR - Humic & Fulvic Acids Granules Biostimulant",
         description:"Introducing Bhumi-Zyme Biostimulant, a revolutionary blend designed to invigorate soil health and amplify crop vitality. Infused with the potent beneﬁts of humic and fulvic acids, these granules offer a comprehensive solution to enriching soil fertility and stimulating microbial activity. By improving nutrient retention, enhancing root development, and fostering balanced soil ecosystems, BF4-GR Humic & Fulvic Acids Granules Bhumi-Zyme Biostimulant rejuvenates agricultural landscapes, leading to healthier plants and bountiful harvests. With its convenient granular form and long-lasting effects, this product embodies a commitment to sustainable farming practices and soil stewardship, paving the way for a greener, more prosperous future in agriculture.",
-        logo: "/src/assets/7.jpg",
+        logo: jpg7,
         benefits:[
             "Rich in both organic and mineral substances essential to plant growth.",
             "Better soil health- Improves soil health by increasing soil aeration.",
@@ -76,7 +82,7 @@ export const Products = [
         id: '4',
         title: "AMRIT - Performance Enhancer",
         description:"Introducing the AMRIT, Performance Enhancer, a cutting-edge solution designed to elevate agricultural yields and promote healthier, more resilient crops. Formulated with precision and backed by extensive research, this innovative bio stimulant harnesses the power of natural ingredients to optimize plant growth and vitality. By enhancing nutrient uptake, strengthening plant defenses, and promoting root development, AMRIT Performance Enhancer empowers farmers to maximize their harvests while minimizing environmental impact. With its easy-to-use formulation and proven eﬃcacy, this product is revolutionizing farming practices worldwide, offering a sustainable solution for feeding a growing population while safeguarding the planet for future generations.",
-        logo: "/src/assets/4.jpg",
+        logo: jpg4,
         benefits:[
             "Enhances the soil properties such as color, moisture holding capacity",
             "Develops White Roots and Profuse Root branching.",
@@ -90,7 +96,7 @@ export const Products = [
         id: '5',
         title: "Suraksha - BP1 – P:  Eugenol Anti Stress Biostimulant",
         description:"Introducing Suraksha Biostimulant, a breakthrough solution crafted to fortify crops against environmental stressors and optimize their resilience. Infused with the natural essence of eugenol, this biostimulant offers a holistic approach to plant health, bolstering their defense mechanisms and enhancing stress tolerance. Whether combating drought, temperature ﬂuctuations, or pest pressures, BP1 - P Eugenol Anti Stress Suraksha Biostimulant provides plants with the vital support they need to thrive in challenging conditions. With its potent yet gentle formulation, this product represents a sustainable solution for farmers seeking to safeguard their yields and promote sustainable agricultural practice",
-        logo: "/src/assets/3.jpg",
+        logo: jpg3,
         benefits:[
             "Helps plant develop tolerance to stress caused by climatic and other factors",
             "Helps plants overcome stress & produce optimum crop output"
@@ -100,7 +106,7 @@ export const Products = [
         id: '6',
         title: "Stiker - Sticker cum Activator",
         description:"Introducing Stiker as a revolutionary PGR. It is a fast action sticker & activator. It helps in better absorption of pesticides, fungicides, micro nutrients etc. by the plants & hence better absorption of these chemicals in the plant system ceding to faster action. Whether aiming to increase yield, enhance fruit quality, or improve stress resistance, Stiker provides plants with the essential support they need to flourish under various conditions with its effective yet environmentally friendly formulation, this product is an ideal choice for farmers dedicated to achieving sustainable and productive agricultural practices.",
-        logo: "/src/assets/2.jpg",
+        logo: jpg2,
         benefits:[
             "Reduces the rain runoff losses.",
             "Higher and faster absorption rate.",

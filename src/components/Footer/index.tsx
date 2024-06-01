@@ -1,6 +1,8 @@
 import { Footer } from "flowbite-react"
 import React from "react"
 import {BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs"
+import Logo1 from "./../../assets/logo-1.png";
+
 
 export const FooterComponent: React.FC = () => {
     return (
@@ -11,7 +13,7 @@ export const FooterComponent: React.FC = () => {
                     <img
                             width={100}
                             height={200}
-                            src="./../../assets//logo-1.png"
+                            src={Logo1}
                             alt="logo"
                         /> 
                         <p>Bhumi Lakshmi Mishra Krishi Udyog</p>

@@ -1,12 +1,15 @@
 
 import React from "react";
 import { Dropdown, Navbar } from "flowbite-react";
+import Logo1 from "./../../assets/logo-1.png";
+
+
 
 export const HeaderComponent: React.FC = () => {
     return (
         <Navbar rounded className="shadow-sm">
             <Navbar.Brand href="/">
-                <img src="./../../assets//logo-1.png" className="mr-3 h-20 sm:h-20" alt="Bhumi Lakshmi" />
+                <img src={Logo1} className="mr-3 h-20 sm:h-20" alt="Bhumi Lakshmi" />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Bhumi Lakshmi</span>
             </Navbar.Brand>
             <Navbar.Toggle />
