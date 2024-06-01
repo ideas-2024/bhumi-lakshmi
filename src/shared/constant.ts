@@ -1,24 +1,27 @@
 
-
+import mission from "../assets/Mission.jpg";
+import vision from "../assets/Vision.jpg";
+import values from "../assets/Values.jpg";
+import jpg6 from "../assets/6.jpg";
 
 export const CompanyMVG = [
     {
         id: '1',
         title: "Our Mission",
         description:"Our mission is to revolutionize agriculture by harnessing the power of nature to create innovative Bio-stimulants and organic solutions as well as all types of non-hazardous agricultural inputs that promote sustainable farming practices, enhance crop yields and protect the environment.",
-        logo: "/src/assets/Mission.jpg"
+        logo: mission
     },
     {
         id: '2',
         title: "Our Vision",
         description:"Our vision is to lead the global agricultural industry towards a more sustainable future, where every farmer has access to effective, eco-friendly solutions that optimize crop health and productivity. Through relentless innovation and a commitment to excellence, we strive to empower farmers to feed the world while preserving the planet for future generations.",
-        logo: "/src/assets/Vision.jpg"
+        logo: vision
     },
     {
         id: '3',
         title: "Client Satisfaction",
         description:"Client satisfaction is at the heart of everything we do. We are dedicated to exceeding our clients' expectations by delivering high-quality products, exceptional services, reasonable prices and tailored solutions that address their unique agricultural needs. We listen attentively to our clients, collaborate closely with them, and continuously seek feedback to ensure that we not only meet but exceed their expectations. Our ultimate goal is to build long-lasting partnerships based on trust, transparency and mutual success.",
-        logo: "/src/assets/Values.jpg"
+        logo: values
     }
 ]
 
@@ -27,7 +30,7 @@ export const Products = [
         id: '1',
         title: "Diamond - BF8-L - Amino Acids Bio stimulant",
         description:"Introducing Diamond Biostimulant, a pinnacle solution crafted to elevate agricultural performance to new heights. Enriched with premium amino acids, this Biostimulant offers a targeted approach to plant nutrition, providing essential building blocks for robust growth and development. By enhancing protein synthesis, improving stress tolerance, and boosting nutrient absorption, BF8-L Amino Acids Diamond Biostimulant empowers crops to reach their full genetic potential. From seedling to harvest, this advanced formulation fosters healthier plants, superior yields, and enhanced crop quality. With its unparalleled eﬃcacy and commitment to sustainability, BF8-L Amino Acids Diamond Biostimulant stands as a testament to excellence in modern agriculture",
-        logo: "/src/assets/6.jpg",
+        logo: jpg6,
         benefits:[
             "Promotes the development of chlorophyll, sugars and proteins in plants and aids photosynthesis.",
             "Increases vitamin and mineral content of plants.Stimulates plant growth (higher biomass production) by accelerating cell division, increasing the rate of development in root systems.",
