@@ -2,6 +2,7 @@
 import React from "react";
 import { Dropdown, Navbar } from "flowbite-react";
 import Logo1 from "./../../assets/logo-1.png";
+import Logo2 from "./../../assets/logo-2.png";
 
 
 
@@ -9,8 +10,8 @@ export const HeaderComponent: React.FC = () => {
     return (
         <Navbar rounded className="shadow-sm">
             <Navbar.Brand href="/">
-                <img src={Logo1} className="mr-3 h-20 sm:h-20" alt="Bhumi Lakshmi" />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Bhumi Lakshmi</span>
+                <img src={Logo2} className="h-10 ml-5 sm:h-16" alt="Bhumi Lakshmi" />
+                <img src={Logo1} className="mr-3  h-10 sm:h-16" alt="Bhumi Lakshmi" />
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>

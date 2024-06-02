@@ -3,18 +3,18 @@ import React from "react";
 import { CompanyMVG } from "../../shared/constant";
 import { VisionCardInterface } from "../../shared/interface";
 import { VisionCard } from "../../components/Card/visioncard";
-import FI from "./../../assets/First Image.jpg";
+import FI from "./../../assets/First Image.png";
 
 
 const HomeContainer: React.FC = () => {
     return (
         <div className="py-4 sm:py-12">
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-4 justify-center text-center">
                 <div className="bg-green sm:py-24 sm:px-12">
-                    <p className="text-4xl italic text-green-700">Welcome to, </p>
-                    <p className=" text-green-700 text-2xl sm:pt-4">Bhumi Lakshmi (BLMKU)</p>
-                    <p className="text-xl sm:pt-4">where innovation meets sustainability in the realm of agricultural solutions. From farming to fork, we nourish.</p>
+                    <p className="text-4xl cursive Pacifico text-green-700">Welcome to Bhumi Lakshmi!</p>
+                    <p className="text-lg uppercase">where innovation meets sustainability in the realm of agricultural solutions.</p>
+                    <p>From farming to fork, we nourish!</p>
                 </div>
                 <div className="">
                     <img src={FI} className="width:20px rounded-lg" />
